@@ -1,7 +1,3 @@
-/**
- * Huffman Algorithm 
- */
-
 function Node(char, freq, right, left) {
     this.value = char;
     this.freq = freq;

@@ -45,7 +45,7 @@ function createRow(char, apperane, probability, code) {
 
     //copy the info
     charTD.innerHTML = char;
-    apperaneTD.innerHTML = apperane + 'x';
+    apperaneTD.innerHTML = apperane + ' veces';
     probabilityTD.innerHTML = probability + '%';
     codeTD.innerHTML = code;
 
