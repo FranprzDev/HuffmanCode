@@ -115,3 +115,11 @@ table th {
         float: left;
     }
 }
+
+footer {
+    margin-top: auto;
+    background-color: #f0f0f0;
+    color: gray;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -31,9 +31,9 @@ enCoder.addEventListener('input', function inputListener(e) {
 deCoder.addEventListener('input', function inputListener(e) {
     deCoder.value = e.target.value.replace(/[^01]/g, '');
     var list = Huffman.readCode(deCoder.value);
+    resultID.innerHTML = list.join('El texto decodificado es: ');
     resultID.innerHTML = list.join('');
 });
-// End of events
 
 function createRow(char, apperane, probability, code) {
     var row = document.createElement('tr');
