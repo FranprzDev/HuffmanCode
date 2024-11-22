@@ -3,39 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Código de Huffman</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <h1> Código de Huffman </h1>
+        <h1> Código de Huffman - Francisco Miguel Perez - 56355 - 3K2 - Comunicaciones </h1>
     </header>
-    <main>
-        <div class="box enCoder">
-            <h2>Codificador</h2>
-            <textarea type="text" id="enCoder" placeholder="Ingresa un texto para convertir" autofocus></textarea>
-            <table>
-                <tbody>
-                    <tr>
-                        <th>Caracter</th>
-                        <th>Freucencia</th>
-                        <th>%</th>
-                        <th>Código</th>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="box deCoder">
-            <h2>Decodificador</h2>
-            <textarea disabled type="text" id="deCoder" placeholder="Ingresa el código [0 o 1]"></textarea>
-            <div id="result"></div>
-        </div>
-    </main>
-    <footer>
-        <p>Hecho por Francisco Miguel Perez - 56355 - 3K2 - Comunicaciones</p>
-    </footer>
+    <div class="content-wrapper">
+        <main>
+            <div class="box enCoder">
+                <h2>Codificador</h2>
+                <textarea type="text" id="enCoder" placeholder="Ingresa un texto para convertir" autofocus></textarea>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Caracter</th>
+                            <th>Freucencia</th>
+                            <th>%</th>
+                            <th>Código</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="box deCoder">
+                <h2>Decodificador</h2>
+                <textarea disabled type="text" id="deCoder" placeholder="Ingresa el código [0 o 1]"></textarea>
+                <div id="result"></div>
+            </div>
+            <div class="box graph">
+                <h2>Árbol de Huffman</h2>
+            </div>
+        </main>
+    </div>
     <script src="./js/HuffmanCoding.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/graph.js"></script>
